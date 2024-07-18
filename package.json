@@ -1,0 +1,19 @@
+{
+  "name": "continuousintegration",
+  "version": "1.0.0",
+  "description": "Workshop, Julio 18",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
