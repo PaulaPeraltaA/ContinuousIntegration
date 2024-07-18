@@ -1,0 +1,13 @@
+name: CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - release/*
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 2 * * 1-5"
+
